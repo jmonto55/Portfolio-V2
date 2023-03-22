@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Code', monospace;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
@@ -44,9 +44,9 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: "#2c4d69";
+  background: linear-gradient(90.13deg, #2c4d69 1.9%, #0900ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #2c4d69 1.9%, #0900ff 97.5%);
 }
 
 .orange-text-gradient {

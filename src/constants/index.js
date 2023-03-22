@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  next,
   meta,
   starbucks,
   tesla,
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "MERN Developer",
+    title: "Frontend with React & Redux",
     icon: web,
   },
   {
-    title: "Ruby on Rails Developer",
+    title: "Backend with Node & RoR",
     icon: mobile,
   },
   {
-    title: "Database Management",
+    title: "Database with MongoDB & PostgreSQL",
     icon: backend,
   },
   {
-    title: "Testing CI/CD",
+    title: "Highly efficient remote team contributor",
     icon: creator,
   },
 ];
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "next",
+    icon: next,
   },
 ];
 
