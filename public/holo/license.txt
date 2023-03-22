@@ -1,11 +1,11 @@
 Model Information:
-* title:	Looking Glass Hologram 1
-* source:	https://sketchfab.com/3d-models/looking-glass-hologram-1-8dd9df2a64fc4ee181202d2973350a85
-* author:	SkyeShark (https://sketchfab.com/skyeshark)
+* title:	Neon Pac-Man
+* source:	https://sketchfab.com/3d-models/neon-pac-man-7be0794534154b98a1bccc8ed99df58d
+* author:	patrakeevasveta (https://sketchfab.com/patrakeevasveta)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Looking Glass Hologram 1" (https://sketchfab.com/3d-models/looking-glass-hologram-1-8dd9df2a64fc4ee181202d2973350a85) by SkyeShark (https://sketchfab.com/skyeshark) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Neon Pac-Man" (https://sketchfab.com/3d-models/neon-pac-man-7be0794534154b98a1bccc8ed99df58d) by patrakeevasveta (https://sketchfab.com/patrakeevasveta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
