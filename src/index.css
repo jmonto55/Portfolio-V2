@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -44,9 +44,9 @@
 }
 
 .green-pink-gradient {
-  background: "#ff5b5b";
-  background: linear-gradient(90.13deg, #ff5b5b 1.9%, #cb0000 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #ff5b5b 1.9%, #cb0000 97.5%);
+  background: "#ee5d1e";
+  background: linear-gradient(90.13deg, #ee5d1e 1.9%, #e82524 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ee5d1e 1.9%, #e82524 97.5%);
 }
 
 .orange-text-gradient {

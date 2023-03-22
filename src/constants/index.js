@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Highly efficient remote team contributor",
+    title: "Efficient remote team contributor",
     icon: creator,
   },
 ];
