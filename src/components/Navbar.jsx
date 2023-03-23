@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     const handler = (event) => {
       if (toggle && ref1.current && !ref1.current.contains(event.target)) {
-        setToggle(false);
+        setToggle(!toggle);
       }
     };
     document.addEventListener('mousedown', handler);
@@ -53,12 +53,17 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
-            onClick={() => setToggle(!toggle)}
+            src={close}
+            alt="close"
+            className={`${toggle ? 'block' : 'hidden' } w-[28px] h-[28px] object-contain cursor-pointer`}
+            onClick={() => setToggle(false)}
           />
-
+          <img
+            src={menu}
+            alt="menu"
+            className={`${toggle ? 'hidden' : 'block' } w-[28px] h-[28px] object-contain cursor-pointer`}
+            onClick={() => setToggle(true)}
+          />
           <div
             ref={ref1}
             className={`${!toggle ? 'ease-in-out duration-700 -right-40 -top-10' : 'ease-out duration-700 top-20 right-0 '} shadow-5xl border-2 border-t-0 border-l-0 border-black/25 backdrop-filter backdrop-blur-sm flex p-6 black-gradient absolute mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
