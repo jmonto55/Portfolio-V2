@@ -31,7 +31,7 @@ const Tech = () => {
     return (
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((tech, index) => (
-          <img className="h-16 w-16" src={tech.icon} alt={tech.name} />
+          <img className="animate-spin-mid ease-in-out blacky-gradient p-3 rounded-full h-16 w-16" src={tech.icon} alt={tech.name} key={index} />
         ))}
       </div>
     );

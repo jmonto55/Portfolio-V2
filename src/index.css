@@ -20,16 +20,16 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #0a0a0a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #1e1e1e,
+    #0a0a0a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #1e1e1e,
+    #0a0a0a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -47,6 +47,12 @@
   background: "#ee5d1e";
   background: linear-gradient(90.13deg, #ee5d1e 1.9%, #e82524 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #ee5d1e 1.9%, #e82524 97.5%);
+}
+
+.blacky-gradient {
+  background: "#ffffff71";
+  background: linear-gradient(0.13deg, #ffffff71 1.9%, #1e1e1e 80%);
+  background: -webkit-linear-gradient(-65.13deg, #ffffff71 1.9%, #1e1e1e 80%);
 }
 
 .orange-text-gradient {

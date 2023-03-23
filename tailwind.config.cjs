@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        'spin-mid': 'pulse 3s ease-in-out infinite',
+      },
       colors: {
         primary: "#111111",
         secondary: "#aaa6c3",
@@ -14,6 +17,7 @@ module.exports = {
       },
       boxShadow: {
         card: "0px 35px 120px -15px #1e1e1e",
+        '5xl': '20px 20px 50px rgba(0, 0, 0, 0.5)',
       },
       screens: {
         xs: "450px",

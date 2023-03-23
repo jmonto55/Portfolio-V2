@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import Tilt from 'react-tilt';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
@@ -8,6 +8,7 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -49,7 +50,14 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+          <Tilt
+            options={{
+              max: 25,
+              scale: 1,
+              speed: 70,
+            }}
+            className={`${!toggle ? 'ease-in-out duration-700 -right-40 -top-10' : 'ease-out duration-700 top-20 right-0 '} shadow-5xl border-2 border-t-0 border-l-0 border-black/25 backdrop-filter backdrop-blur-sm flex p-6 black-gradient absolute mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+          >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
@@ -57,7 +65,7 @@ const Navbar = () => {
                   className={`${
                     active === link.title
                       ? "text-white"
-                      : "text-secondary"
+                      : "text-[##d0cecf]"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setActive(link.title);
@@ -68,7 +76,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </Tilt>
         </div>
       </div>
     </nav>
