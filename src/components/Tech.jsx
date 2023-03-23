@@ -30,15 +30,15 @@ const Tech = () => {
   if (isMobile) {
     return (
       <div className="flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((tech, index) => (
-          <img className="animate-spin-mid ease-in-out blacky-gradient p-3 rounded-full h-16 w-16" src={tech.icon} alt={tech.name} key={index} />
+        {technologies.map((tech) => (
+          <img className="animate-spin-mid ease-in-out blacky-gradient p-3 rounded-full h-16 w-16" src={tech.icon} alt={tech.name} key={tech.name} />
         ))}
       </div>
     );
   } else {
     return (
       <div className="flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((tech, index) => (
+        {technologies.map((tech) => (
           <div className="w-28 h-28" key={tech.name}>
             <BallCanvas icon={tech.icon} />
           </div>

@@ -21,8 +21,15 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
-
-      <div className="absolute xs:bottom-10 bottom-24 w-full flex justify-center items-center">
+      <div className="absolute bottom-52 w-full flex justify-center">
+        <h2 className="text-white text-[24px] animate-spin-mid flex items-center">
+          Give it a spin&nbsp;
+          <span class="text-[28px] material-symbols-outlined text-white">
+            autorenew
+          </span>
+        </h2>
+      </div>
+      <div className="absolute xs:bottom-10 bottom-16 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white opacity-60 flex justify-center items-start p-2">
             <motion.div
@@ -30,9 +37,10 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 2,
-                repeat: 20,
+                duration: 2.5,
+                repeat: Infinity,
                 repeatType: "loop",
+
               }}
               className='w-3 h-3 opacity-60 rounded-full bg-white mb-1'
             />
