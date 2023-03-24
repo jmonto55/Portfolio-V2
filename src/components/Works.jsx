@@ -7,8 +7,13 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 const Works = () => {
   return (
-    <div>Works</div>
+    <>
+      <motion.div variants={textVariant}>
+        <p className={styles.sectionSubText}>What I have built</p>
+        <h2 className={styles.sectionHeadText}>Projects.</h2>
+      </motion.div>
+    </>
   );
 };
 
-export default Works
+export default SectionWrapper(Works, 'works');

@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -9,7 +9,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.5} groundColor='black' />
       <spotLight
         position={[-10, 100, 10]}
         angle={0.12}
@@ -22,8 +22,8 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.04 : 0.085}
-        position={isMobile ? [1.5, -0.25, 0.645] : [-1, 0, 0.4]}
-        rotation={[1.5, 0.2, 4.9]}
+        position={isMobile ? [1.2, -0.5, 0.645] : [0, 0.2, 0.4]}
+        rotation={[1.45, 0.2, 5.2]}
       />
     </mesh>
   );
@@ -31,6 +31,20 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const controlsRef = useRef();
+
+  const toggleAutoRotate = () => {
+    controlsRef.current.autoRotateSpeed = -1 * controlsRef.current.autoRotateSpeed;
+  };
+  const stopAutoRotate = () => {
+    controlsRef.current.autoRotate = false;
+  };
+
+  // Stop auto-rotate after 20 seconds
+  setTimeout(toggleAutoRotate, 10000);
+  setTimeout(toggleAutoRotate, 20000);
+  setTimeout(stopAutoRotate, 30000);
+  setTimeout(stopAutoRotate, 60000);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -63,8 +77,9 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          ref={controlsRef}
           autoRotate
-          autoRotateSpeed={0.5}
+          autoRotateSpeed={1.5}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
