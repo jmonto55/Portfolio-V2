@@ -33,18 +33,12 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
   const controlsRef = useRef();
 
-  const toggleAutoRotate = () => {
-    controlsRef.current.autoRotateSpeed = -1 * controlsRef.current.autoRotateSpeed;
-  };
   const stopAutoRotate = () => {
     controlsRef.current.autoRotate = false;
   };
 
   // Stop auto-rotate after 20 seconds
-  setTimeout(toggleAutoRotate, 10000);
-  setTimeout(toggleAutoRotate, 20000);
-  setTimeout(stopAutoRotate, 30000);
-  setTimeout(stopAutoRotate, 60000);
+  setTimeout(stopAutoRotate, 10000);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
