@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import ruby from "./tech/ruby.png";
 import jest from "./tech/jest.png";
 import reactest from "./tech/reactest.png";
+import live from "./live.png";
 
 export {
   logo,
@@ -68,4 +69,5 @@ export {
   ruby,
   jest,
   reactest,
+  live,
 };
