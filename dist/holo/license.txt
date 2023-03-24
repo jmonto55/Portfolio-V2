@@ -1,11 +1,11 @@
 Model Information:
-* title:	Neon Pac-Man
-* source:	https://sketchfab.com/3d-models/neon-pac-man-7be0794534154b98a1bccc8ed99df58d
-* author:	patrakeevasveta (https://sketchfab.com/patrakeevasveta)
+* title:	HyperX Alloy FPS Pro Keyboard
+* source:	https://sketchfab.com/3d-models/hyperx-alloy-fps-pro-keyboard-8b6502af6db24c9699b5f2a2f8ef98fc
+* author:	asd123a (https://sketchfab.com/asd123a)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Neon Pac-Man" (https://sketchfab.com/3d-models/neon-pac-man-7be0794534154b98a1bccc8ed99df58d) by patrakeevasveta (https://sketchfab.com/patrakeevasveta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "HyperX Alloy FPS Pro Keyboard" (https://sketchfab.com/3d-models/hyperx-alloy-fps-pro-keyboard-8b6502af6db24c9699b5f2a2f8ef98fc) by asd123a (https://sketchfab.com/asd123a) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
