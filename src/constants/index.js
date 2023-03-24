@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  rails,
+  sass,
+  express,
+  ruby,
+  jest,
+  reactest,
 } from "../assets";
 
 export const navLinks = [
@@ -61,23 +67,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
@@ -85,8 +79,20 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Next",
+    icon: next,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "Node JS",
@@ -97,20 +103,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Express",
+    icon: express,
   },
   {
-    name: "git",
+    name: "Ruby on Rails",
+    icon: rails,
+  },
+  {
+    name: "Git & GitHub",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Jest",
+    icon: jest,
   },
   {
-    name: "next",
-    icon: next,
+    name: "React Test Lib",
+    icon: reactest,
   },
 ];
 

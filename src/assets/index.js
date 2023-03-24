@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import rails from "./tech/rails.png";
 import css from "./tech/css.png";
 import next from "./tech/next.png";
 import figma from "./tech/figma.png";
@@ -20,15 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import sass from "./tech/sass.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import express from  "./tech/express.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ruby from "./tech/ruby.png";
+import jest from "./tech/jest.png";
+import reactest from "./tech/reactest.png";
 
 export {
   logo,
@@ -59,4 +62,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  rails,
+  sass,
+  express,
+  ruby,
+  jest,
+  reactest,
 };

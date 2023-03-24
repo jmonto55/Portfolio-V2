@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute bottom-52 w-full flex justify-center">
         <h2 className="text-white text-[24px] animate-spin-mid flex items-center">
           Give it a spin&nbsp;
-          <span class="text-[28px] material-symbols-outlined text-white">
+          <span className="text-[28px] material-symbols-outlined text-white">
             autorenew
           </span>
         </h2>
