@@ -19,7 +19,7 @@ const ProjectCard = ({
   const [liveHover, setLiveHover] = useState(false);
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={textVariant()}>
       <Tilt
         options={{
           max: 25,
