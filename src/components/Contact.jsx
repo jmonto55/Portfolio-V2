@@ -16,7 +16,7 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-  const [openModal, setOpenModal] = useState(false);
+  const [openModal, setOpenModal] = useState(true);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -14,4 +14,4 @@ const Modal = () => {
   );
 };
 
-export default SectionWrapper(Modal, '');
+export default Modal;
