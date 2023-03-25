@@ -6,6 +6,7 @@ import Earth from "./canvas/Earth";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { textVariant } from "../utils/motion";
+import Modal from "./Modal";
 
 const Contact = () => {
   const formRef = useRef();
@@ -15,6 +16,7 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
+  const [openModal, setOpenModal] = useState(true);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,7 +26,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
     emailjs.send(
       'service_qvxfejm',
       'template_rhlz2mb',
@@ -39,7 +40,10 @@ const Contact = () => {
     )
     .then(() => {
       setLoading(false);
-      alert('Thank you, I will get back to you as soon as possible');
+      setOpenModal(!openModal);
+      setTimeout(() => {
+        setOpenModal(false);
+      }, 3000);
       setForm({
         name: '',
         email: '',
@@ -47,8 +51,7 @@ const Contact = () => {
       })
     }, (error) => {
       setLoading(false);
-      console.log(error);
-      alert('Something went wrong.');
+      alert('Something went wrong.')
     })
   };
 
@@ -104,7 +107,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What do you what to say?"
+                placeholder="Write your message!"
                 className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
               />
             </label>
@@ -124,6 +127,7 @@ const Contact = () => {
         >
           <Earth />
         </motion.div>
+        {openModal && <Modal />}
       </div>
     </>
   );

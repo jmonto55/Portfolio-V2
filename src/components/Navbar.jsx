@@ -55,18 +55,18 @@ const Navbar = () => {
           <img
             src={close}
             alt="close"
-            className={`${toggle ? 'block' : 'hidden' } w-[28px] h-[28px] object-contain cursor-pointer`}
+            className={`${toggle ? 'block' : 'hidden' } w-[22px] h-[22px] object-contain cursor-pointer`}
             onClick={() => setToggle(false)}
           />
           <img
             src={menu}
             alt="menu"
-            className={`${toggle ? 'hidden' : 'block' } w-[28px] h-[28px] object-contain cursor-pointer`}
+            className={`${toggle ? 'hidden' : 'block' } w-[24px] h-[24px] object-contain cursor-pointer`}
             onClick={() => setToggle(true)}
           />
           <div
             ref={ref1}
-            className={`${!toggle ? 'ease-in-out duration-700 -right-40 -top-10' : 'ease-out duration-700 top-20 right-0 '} shadow-5xl border-2 border-t-0 border-l-0 border-black/25 backdrop-filter backdrop-blur-sm flex p-6 black-gradient absolute mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            className={`${!toggle ? 'ease-in-out duration-700 -right-40 -top-10 opacity-0' : 'ease-out duration-700 top-16 right-8 opacity-100'} shadow-5xl border-2 border-t-0 border-l-0 border-black/25 backdrop-filter backdrop-blur-sm flex p-6 black-gradient absolute mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
