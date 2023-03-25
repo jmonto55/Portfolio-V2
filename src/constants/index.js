@@ -1,5 +1,8 @@
 import {
   mobile,
+  ecrime,
+  logo_w,
+  microverse,
   backend,
   creator,
   web,
@@ -19,9 +22,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  quantumStocks,
+  space,
+  portfolio,
   threejs,
   rails,
   sass,
@@ -29,6 +32,7 @@ import {
   ruby,
   jest,
   reactest,
+  bookstore
 } from "../assets";
 
 export const navLinks = [
@@ -126,50 +130,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-stack Developer",
+    company_name: "Freelance",
+    icon: logo_w,
     iconBg: "#1e1e1e",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#282828",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#1e1e1e",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#282828",
     date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Code Reviewer & Mentor",
+    company_name: "Microverse",
+    icon: microverse,
+    iconBg: "#282828",
+    date: "April 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Project Engineer",
+    company_name: "eCrime forense",
+    icon: ecrime,
+    iconBg: "#282828",
+    date: "Jul 2020 - Jun 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -181,88 +172,88 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quantum Stocks",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Quantum Stocks is a web application where you can visualize detailed information about any stock traded in the six biggest markets.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Redux",
+        color: "text-violet-700",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: quantumStocks,
+    source_code_link: "https://github.com/jmonto55/Sotck-Viewer",
+    live_demo_link: "https://stock-viewer.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Space Traveler's Hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Space Traveler's Hub is a web application that displays SpaceX rockets and missions, users can join/leave missions or reserve/cancel rockets.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: space,
+    source_code_link: "https://github.com/jmonto55/Space-Travelers-Hub",
+    live_demo_link: "https://space-travelers-hub-27nq.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "This Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A complete built from scratch React project with emphasis in UX and usage of advance libraries and packages like Framer Motion and Three Js.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Three",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/jmonto55/Portfolio-V2",
+    live_demo_link: "https://portfolio-ci7x.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Bookstore",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "BookStore is a web application inspired by books, it has two routes: home, and a categories route containing a full list of books which you can review, comment or remove.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "Sass",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bookstore,
+    source_code_link: "https://github.com/jmonto55/Bookstore",
+    live_demo_link: "https://book-store-s3pp.onrender.com/",
   },
 ];
 
