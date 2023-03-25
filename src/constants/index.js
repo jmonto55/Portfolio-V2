@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend with Node & RoR",
+    title: "Backend with Node, & Ruby on Rails",
     icon: mobile,
   },
   {
