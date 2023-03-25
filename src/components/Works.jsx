@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   const [gitHover, setGitHover] = useState(false);
   const [liveHover, setLiveHover] = useState(false);
@@ -70,7 +71,7 @@ const ProjectCard = ({
               type="button"
               onMouseEnter={() => setLiveHover(true)}
               onMouseLeave={() => setLiveHover(false)}
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(live_demo_link, "_blank")}
               className="z-10 black-gradient w-10 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -127,4 +128,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "works");
+export default SectionWrapper(Works, "work");

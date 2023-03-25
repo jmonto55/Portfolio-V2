@@ -26,16 +26,23 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import express from  "./tech/express.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import space from "./space.png";
+import portfolio from "./portfolio.png";
 import ruby from "./tech/ruby.png";
 import jest from "./tech/jest.png";
 import reactest from "./tech/reactest.png";
 import live from "./live.png";
+import quantumStocks from './quantumStocks.png';
+import bookstore from './bookstore.png';
+import microverse from './microverse.png';
+import logo_w from './logo_w.png';
+import ecrime from './ecrime.png';
 
 export {
   logo,
+  logo_w,
+  ecrime,
+  microverse,
   backend,
   creator,
   mobile,
@@ -60,9 +67,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  space,
+  portfolio,
   rails,
   sass,
   express,
@@ -70,4 +76,6 @@ export {
   jest,
   reactest,
   live,
+  quantumStocks,
+  bookstore,
 };
