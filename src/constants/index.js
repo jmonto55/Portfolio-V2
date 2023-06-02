@@ -194,26 +194,26 @@ const projects = [
     live_demo_link: "https://stock-viewer.onrender.com/",
   },
   {
-    name: "Space Traveler's Hub",
+    name: "SmartBudget",
     description:
-      "Space Traveler's Hub is a web application that displays SpaceX rockets and missions, users can join/leave missions or reserve/cancel rockets.",
+      "SmartBudget is a full-stack CRUD application to manage your personal budget, fully tested with unit specs and integration specs.",
     tags: [
       {
-        name: "React",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Ruby on Rails",
         color: "pink-text-gradient",
       },
     ],
     image: space,
-    source_code_link: "https://github.com/jmonto55/Space-Travelers-Hub",
-    live_demo_link: "https://space-travelers-hub-27nq.onrender.com/",
+    source_code_link: "https://github.com/jmonto55/budget-app",
+    live_demo_link: "https://rails-kb31.onrender.com",
   },
   {
     name: "This Portfolio",
