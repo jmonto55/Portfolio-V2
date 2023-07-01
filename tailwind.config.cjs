@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
+  darkMode: 'class',
   theme: {
     extend: {
       animation: {

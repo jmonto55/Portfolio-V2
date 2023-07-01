@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend with Node, & Ruby on Rails",
+    title: "Backend with Prisma, & Ruby on Rails",
     icon: mobile,
   },
   {
@@ -107,7 +107,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Express",
+    name: "Prisma",
     icon: express,
   },
   {
@@ -136,22 +136,22 @@ const experiences = [
     iconBg: "#1e1e1e",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Ruby on Rails and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Code Reviewer & Mentor",
+    title: "Technical Support Engineer",
     company_name: "Microverse",
     icon: microverse,
     iconBg: "#282828",
     date: "April 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Carefuly reviewed more than 100 Pull Requests so far implementing features built with technologies like React, Redux, and Ruby on Rails",
+      "Proposing improvements to code organization to improve code quality and overall performance.",
+      "Providing advice and on how to manage complex projects using GitHub projects.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -162,10 +162,8 @@ const experiences = [
     iconBg: "#282828",
     date: "Jul 2020 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted in the implementation of secure architectures for various companies, resulting in substantial cost savings by preventing fraud.",
+      "Conducted over 30 evaluations based on the NIST framework for companies of different sizes.",
     ],
   },
 ];
@@ -191,7 +189,33 @@ const projects = [
     ],
     image: quantumStocks,
     source_code_link: "https://github.com/jmonto55/Sotck-Viewer",
-    live_demo_link: "https://stock-viewer.onrender.com/",
+    live_demo_link: "https://sotck-viewer.vercel.app/",
+  },
+  {
+    name: "Alpha Reservations",
+    description:
+      "Full-stack solution using React for the frontend and Ruby on Rails for the backend. Its primary purpose is to facilitate house reservations.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "text-violet-700",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bookstore,
+    source_code_link: "https://github.com/jmonto55/book-an-appointment-frontend",
+    live_demo_link: "https://book-an-appointment-frontend-git-dev-jmonto55.vercel.app/",
   },
   {
     name: "SmartBudget",
@@ -236,24 +260,6 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/jmonto55/Portfolio-V2",
     live_demo_link: "https://portfolio-ci7x.onrender.com/",
-  },
-  {
-    name: "Bookstore",
-    description:
-      "BookStore is a web application inspired by books, it has two routes: home, and a categories route containing a full list of books which you can review, comment or remove.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Sass",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bookstore,
-    source_code_link: "https://github.com/jmonto55/Bookstore",
-    live_demo_link: "https://book-store-s3pp.onrender.com/",
   },
 ];
 
