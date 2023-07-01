@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillHeart } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="flex w-full flex-col items-center gap-4 dark:text-neutral-900">
+    <div className="text-center flex w-full flex-col items-center gap-6 dark:text-neutral-900">
         © 2023 Jose Montoya. All rights reserved.
       <div className="w-full flex items-center justify-center gap-2">
         Built with
