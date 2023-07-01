@@ -40,8 +40,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-[#d0cecf] text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a full-stack software engineer with experience in Typescript,
-        Javascript, and Ruby, and expertise in frameworks like React, Node.js, and
+        I'm a full-stack software developer with experience in Typescript,
+        Javascript, and Ruby, and expertise in frameworks like React, Next.js, and
         Ruby on Rails. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!

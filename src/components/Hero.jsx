@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="text-white opacity-60"> Jose</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack Software Engineer specialized in developing <br className="sm:block hidden"/>web applications using MERN stack and Ruby on Rails.
+            Full-stack Software Developer specialized in building <br className="sm:block hidden"/>Web Applications using React, NextJS, PostgreSQL, and Ruby on Rails.
           </p>
         </div>
       </div>
