@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="scroll-smooth relative z-0 bg-primary">
+      <div className="scroll-smooth relative z-0 bg-primary dark:bg-slate-200">
         <Navbar />
         <Hero />
         <About />

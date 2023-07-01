@@ -58,15 +58,15 @@ const Contact = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Let's Talk.</h2>
+        <h2 className={`${styles.sectionHeadText} dark:text-neutral-900`}>Let's Talk.</h2>
       </motion.div>
       <div className="lg:mt-12 lg:flex-row flex-col-reverse flex gap-10 overflow-hidden">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-tertiary p-8 rounded-2xl"
+          className="flex-[0.75] bg-tertiary p-8 rounded-2xl dark:bg-slate-100 shadow-md"
         >
-          <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <p className={`${styles.sectionSubText} dark:text-neutral-900`}>Get in touch</p>
+          <h3 className={`${styles.sectionHeadText} dark:text-neutral-900`}>Contact.</h3>
 
           <form
             ref={formRef}
@@ -74,7 +74,7 @@ const Contact = () => {
             className="mt-12 flex flex-col gap-8"
           >
             <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Name</span>
+              <span className="text-white font-medium mb-4 dark:text-neutral-900">Your Name</span>
               <input
                 required
                 type="text"
@@ -82,12 +82,12 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary rounded-lg outlined-none border-none font-medium dark:bg-slate-200"
               />
             </label>
 
             <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Email</span>
+              <span className="text-white font-medium mb-4 dark:text-neutral-900">Your Email</span>
               <input
                 required
                 type="email"
@@ -95,12 +95,12 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium dark:bg-slate-200"
               />
             </label>
 
             <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Message</span>
+              <span className="text-white font-medium mb-4 dark:text-neutral-900">Your Message</span>
               <textarea
                 required
                 rows="7"
@@ -108,13 +108,13 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder="Write your message!"
-                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-neutral-800 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium dark:bg-slate-200"
               />
             </label>
 
             <button
               type="submit"
-              className="bg-neutral-800 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+              className="bg-neutral-800 py-3 px-8 outline-none w-fit text-white font-bold shadow-md rounded-xl dark:bg-slate-200 dark:text-neutral-900"
             >
               {loading ? "Sending..." : "Send"}
             </button>
@@ -123,7 +123,7 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl: h-auto md:h-[550px] h-[350px]"
+          className="xl:flex-1 xl: md:h-[550px] h-[350px]"
         >
           <Earth />
         </motion.div>

@@ -34,8 +34,8 @@ const Tech = () => {
     return (
       <div>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Appart from advanced JavaScript, HTML & CSS</p>
-          <h2 className={`${styles.sectionHeadText} mb-10`}>Technologies.</h2>
+          <p className={`${styles.sectionSubText} dark:text-neutral-900`}>Appart from advanced JavaScript, HTML & CSS</p>
+          <h2 className={`${styles.sectionHeadText} mb-10 dark:text-neutral-900`}>Technologies.</h2>
         </motion.div>
         <div className="flex flex-row flex-wrap justify-center gap-10">
           {technologies.map((tech) => (
@@ -53,14 +53,14 @@ const Tech = () => {
     return (
       <div>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Appart from advanced JavaScript, HTML & CSS</p>
-          <h2 className={`${styles.sectionHeadText} mb-10`}>Technologies.</h2>
+        <p className={`${styles.sectionSubText} dark:text-neutral-900`}>Appart from advanced JavaScript, HTML & CSS</p>
+          <h2 className={`${styles.sectionHeadText} mb-10 dark:text-neutral-900`}>Technologies.</h2>
         </motion.div>
         <div className="flex flex-row flex-wrap justify-center gap-10">
           {technologies.map((tech) => (
-            <div className="w-28 h-28" key={tech.name}>
+            <div className="w-28 h-28 dark:text-black" key={tech.name}>
               <BallCanvas icon={tech.icon} />
-              <h2 className="text-[12px] text-center opacity-50 tracking-wider">{tech.name}</h2>
+              <h2 className="text-[12px] text-center tracking-wider">{tech.name}</h2>
             </div>
           ))}
         </div>
